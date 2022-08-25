@@ -2,7 +2,7 @@
 ## Model identifiers
 - Slug: grover-esol
 - Ersilia ID: eos8451
-- Tags: 
+- Tags: Physicochemical property, Solubility
 
 # Model description
 Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules.
