@@ -1,32 +1,41 @@
 # Water solubility
-## Model identifiers
-- Slug: grover-esol
-- Ersilia ID: eos8451
-- Tags: Physicochemical property, Solubility
 
-# Model description
-Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules.
-- Input: SMILES
-- Output: Physicochemical property, Solubility 
-- Model type: Regression
-- Training set: 10,000,000 (https://paperswithcode.com/dataset/moleculenet)
-- Mode of training: Pretrained
+Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.
+This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from [MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).
 
-# Source code
-This model was published by Yu R., Yatao B. et al. Self-Supervised Graph Transformer on Large-Scale Molecular Data. arXiv Labs 2018. DOI: https://doi.org/10.48550/arXiv.2007.02835
+## Identifiers
 
-- Code: https://github.com/tencent-ailab/grover
-- Checkpoints: https://github.com/tencent-ailab/grover/tree/main/grover/model
+* EOS model ID: `eos8451`
+* Slug: `grover-esol`
 
-# License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "grover", located at /model and licensed under an MIT license
+## Characteristics
 
-# History 
-- Model was downloaded on 7/15/2022 from TencentAILab
-- We duplicated task/predict.py and scripts/save_features.py from Tencent GitHub repository
-- Model was incorporated to Ersilia on 7/15/2022
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Regression`
+* Output: `Experimental value`
+* Output Type: `Float`
+* Output Shape: `Single`
+* Interpretation: Log Solubility (Mols/Litre)
 
-# About us
+## References
+
+* [Publication](https://papers.nips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html)
+* [Source Code](https://github.com/tencent-ailab/grover)
+* Ersilia contributor: [Amna-28](https://github.com/Amna-28)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://papers.nips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+
+## License
+
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a MIT license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
-[Help us](https://www.ersilia.io/donate) achieve our mission or [volunteer](https://www.ersilia.io/volunteer) with us!
+[Help us](https://www.ersilia.io/donate) achieve our mission!
