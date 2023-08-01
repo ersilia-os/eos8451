@@ -26,6 +26,8 @@ This model has been trained using the GROVER transformer (see eos7w6n or grover-
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos8451)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos8451) (AMD64, ARM64)
 
 ## Citation
 
