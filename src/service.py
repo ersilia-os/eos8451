@@ -66,7 +66,7 @@ class Model(object):
             h = [c.upper().replace(",", "").replace("(", "").replace(")", "") for c in h]
             R = []
             for r in reader:
-                R += [{"outcomes": [Float(x) for x in r[1:]]}]
+                R += [{"LOGSOLUBILITY": Float(x) for x in r[1:]}]
         meta = {
             "outcomes": h
         }
