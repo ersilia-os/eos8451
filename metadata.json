@@ -3,21 +3,18 @@
     "Slug": "grover-esol",
     "Status": "Ready",
     "Title": "Water solubility",
-    "Description": "Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.\nThis model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from\u00a0[MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).\n",
+    "Description": "Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.\nThis model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from\u00a0[MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Property calculation or prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Property calculation or prediction",
-    "Biomedical Area": [
-        "ADMET"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Experimental value"
     ],
@@ -31,20 +28,23 @@
         "LogS",
         "Chemical graph model"
     ],
-    "Publication": "https://arxiv.org/abs/2007.02835",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Preprint",
     "Publication Year": 2020,
+    "Publication": "https://arxiv.org/abs/2007.02835",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
     "Contributor": "Amna-28",
-    "Incorporation Date": "2022-07-13",
+    "Incorporation Date": "2022-07-19",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8451",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip",
-    "Deployment": [
-        "Local"
     ]
 }
