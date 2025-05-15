@@ -3,7 +3,7 @@
 Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.
 This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from [MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).
 
-This model was incorporated on 2022-07-13.
+This model was incorporated on 2022-07-19.
 
 ## Information
 ### Identifiers
