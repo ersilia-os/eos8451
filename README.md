@@ -5,6 +5,7 @@ This model has been trained using the GROVER transformer (see eos7w6n or grover-
 
 This model was incorporated on 2022-07-19.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos8451`
@@ -14,7 +15,7 @@ This model was incorporated on 2022-07-19.
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `ADMET`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Solubility`, `MoleculeNet`, `ADME`, `LogS`, `Chemical graph model`
 
 ### Input
