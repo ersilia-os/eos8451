@@ -3,7 +3,7 @@
 Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.
 This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from [MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).
 
-This model was incorporated on 2022-07-19.Last packaged on 2025-10-14.
+This model was incorporated on 2022-07-19.Last packaged on 2026-03-10.
 
 ## Information
 ### Identifiers
@@ -36,17 +36,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8451](https://hub.docker.com/r/ersiliaos/eos8451)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1417`
 - **Environment Size (Mb):** `2405`
-- **Image Size (Mb):** `6677.85`
+- **Image Size (Mb):** `6680.3`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.27`
-- 100 inputs: `159.25`
+- 10 inputs: `35.44`
+- 100 inputs: `162.15`
 - 10000 inputs: `-1`
 
 ### References
