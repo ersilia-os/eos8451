@@ -23,7 +23,6 @@
     "Interpretation": "Log Solubility (Mols/Litre)",
     "Tag": [
         "Solubility",
-        "MoleculeNet",
         "ADME",
         "LogS",
         "Chemical graph model"
