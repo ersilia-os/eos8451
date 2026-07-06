@@ -15,7 +15,7 @@ This model was incorporated on 2022-07-19.Last packaged on 2026-03-10.
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `ADMET`
 - **Target Organism:** `Any`
-- **Tags:** `Solubility`, `MoleculeNet`, `ADME`, `LogS`, `Chemical graph model`
+- **Tags:** `Solubility`, `ADME`, `LogS`, `Chemical graph model`
 
 ### Input
 - **Input:** `Compound`
