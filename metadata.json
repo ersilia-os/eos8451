@@ -46,7 +46,7 @@
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8451",
     "Docker Architecture": "AMD64",
     "Model Size": 1417.0,
-    "Environment Size": 2405.0,
+    "Environment Size": 2404.0,
     "Image Size": 6680.3,
     "Computational Performance 1": 35.44,
     "Computational Performance 2": 40.68,
