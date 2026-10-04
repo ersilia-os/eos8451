@@ -1,7 +1,6 @@
 # Water solubility
 
-Prediction of water solubility data (log solubility in mols per litre) for common organic small molecules. trained using the Molecule Net ESOL dataset.
-This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).  GROVER predictions consistently outperformed other state-of-the-art methods benchmark datasets from [MoleculeNet](https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract).
+Gives the aqueous solubility of a common organic compound on a logarithmic molar scale, one of the first properties consulted when triaging a series. ESOL, part of MoleculeNet, provided measured solubilities for training. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules, an approach that outperformed established baselines across the MoleculeNet suite. ESOL is modest in size and weighted towards small neutral molecules.
 
 This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 
@@ -24,7 +23,7 @@ This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Log Solubility (Mols/Litre)
+- **Interpretation:** Aqueous solubility as log mol/L, where higher values indicate a more soluble compound.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
