@@ -1,6 +1,6 @@
 # Water solubility
 
-Gives the aqueous solubility of a common organic compound on a logarithmic molar scale, one of the first properties consulted when triaging a series. ESOL, part of MoleculeNet, provided measured solubilities for training. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules, an approach that outperformed established baselines across the MoleculeNet suite. ESOL is modest in size and weighted towards small neutral molecules.
+Gives the aqueous solubility of a common organic compound on a logarithmic molar scale, one of the first properties consulted when triaging a series. ESOL, part of MoleculeNet, provided measured solubilities for 1,128 compounds. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules, an approach that outperformed established baselines across the MoleculeNet suite, and three fine-tuned folds are averaged. ESOL is modest in size and weighted towards small neutral molecules.
 
 This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
 
