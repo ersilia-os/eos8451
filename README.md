@@ -2,7 +2,8 @@
 
 Gives the aqueous solubility of a common organic compound on a logarithmic molar scale, one of the first properties consulted when triaging a series. ESOL, part of MoleculeNet, provided measured solubilities for 1,128 compounds. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules, an approach that outperformed established baselines across the MoleculeNet suite, and three fine-tuned folds are averaged. ESOL is modest in size and weighted towards small neutral molecules.
 
-This model was incorporated on 2022-07-19.Last packaged on 2026-07-06.
+This model was incorporated on 2022-07-19.
+Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8451](https://hub.docker.com/r/ersiliaos/eos8451)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8451.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos8451_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos8451_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1417`
